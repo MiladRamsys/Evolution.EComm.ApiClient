@@ -1,0 +1,9 @@
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\Evolution.EComm.ApiClient.exe.config
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\Evolution.EComm.ApiClient.exe
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\Evolution.EComm.ApiClient.pdb
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\Newtonsoft.Json.dll
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\System.Net.Http.Formatting.dll
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\Newtonsoft.Json.xml
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\bin\Debug\System.Net.Http.Formatting.xml
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\obj\Debug\Evolution.EComm.ApiClient.exe
+C:\Code\VS.NET\Evolution.EComm.ApiClient\Evolution.EComm.ApiClient\obj\Debug\Evolution.EComm.ApiClient.pdb
