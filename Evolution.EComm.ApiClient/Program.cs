@@ -151,8 +151,8 @@ namespace Evolution.EComm.ApiClient
         public class CustomDelegatingHandler : DelegatingHandler
         {
             //Obtained from the server earlier, APIKey MUST be stored securly and in App.Config
-            private string APPId = "b782c079-c40e-4144-89ab-6fc0b58b369b";
-            private string APIKey = "eZmQC+ITixIfD3GbSGwr0fGLkZ4o+MEVPuPl+eH+6pg=";
+            private string APPId = "";
+            private string APIKey = "";
 
             protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
             {
