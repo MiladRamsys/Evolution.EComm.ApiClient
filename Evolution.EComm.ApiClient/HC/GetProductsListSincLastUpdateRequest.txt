@@ -1,0 +1,4 @@
+GET http://ramsys.cloudapp.net:1001/api/Products/GetProducts?last_update=2015-05-24%2003:08:00 HTTP/1.1
+Authorization: amx b782c079-c40e-4144-89ab-6fc0b58b369b:YU8HiYM7UWj16NqHD+CRiBl8iAcpbEPCZVXcweZWmXo=:a02a46db410241c7a37dc331cd746452:1433300884
+Host: ramsys.cloudapp.net:1001
+

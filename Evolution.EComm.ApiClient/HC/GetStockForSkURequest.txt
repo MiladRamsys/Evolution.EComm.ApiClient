@@ -1,0 +1,4 @@
+GET http://ramsys.cloudapp.net:1001/api/Products/GetStockLevelForSKU/101621 HTTP/1.1
+Authorization: amx b782c079-c40e-4144-89ab-6fc0b58b369b:WPKCCtbwURNyNEB4B0TqNC01BrYFX5euE+YjGpyCs0Y=:85fdb2707d344076aa5860da791d83e8:1433300891
+Host: ramsys.cloudapp.net:1001
+

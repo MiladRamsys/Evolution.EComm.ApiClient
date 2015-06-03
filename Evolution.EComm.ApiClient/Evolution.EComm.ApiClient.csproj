@@ -65,6 +65,20 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="HC\GetOrderRequest.txt" />
+    <Content Include="HC\GetOrderResponse.txt" />
+    <Content Include="HC\GetProductRequest.txt" />
+    <Content Include="HC\GetProductResponse.txt" />
+    <Content Include="HC\GetProductsListSincLastUpdateRequest.txt" />
+    <Content Include="HC\GetProductsListSincLastUpdateResponse.txt" />
+    <Content Include="HC\GetStockForSkURequest.txt" />
+    <Content Include="HC\GetStockForSkUResponse.txt" />
+    <Content Include="HC\GetStockLevelsSincelastUpdateRespond.txt" />
+    <Content Include="HC\GetStockLevelsSincelastUpdateResquest.txt" />
+    <Content Include="HC\POSTResponseORDER.txt" />
+    <Content Include="HC\POSTRequestORDER.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

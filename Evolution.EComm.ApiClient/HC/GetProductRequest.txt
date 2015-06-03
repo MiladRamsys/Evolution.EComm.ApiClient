@@ -1,0 +1,4 @@
+GET http://ramsys.cloudapp.net:1001/api/Products/101621 HTTP/1.1
+Authorization: amx b782c079-c40e-4144-89ab-6fc0b58b369b:U2JrsrX/fkyjecggOsGFNbvTK7i6/R4Ce1XgoCEHU/s=:8fa1161548894a5d954bdf987da48ae9:1433300881
+Host: ramsys.cloudapp.net:1001
+

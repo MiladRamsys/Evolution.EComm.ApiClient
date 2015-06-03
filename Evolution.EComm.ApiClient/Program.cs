@@ -116,18 +116,23 @@ namespace Evolution.EComm.ApiClient
             order.EPAYs.Add(pay);
             order.ESALEs.Add(sale);
             //Post ORDER
-            //HttpResponseMessage response = await client.PostAsJsonAsync(apiBaseAddress + "api/orders", order);
-            string lastUpdate = DateTime.Now.AddDays(-10).ToString("dd-MM-yyyy hh:mm:ss");
+            HttpResponseMessage response = await client.PostAsJsonAsync(apiBaseAddress + "api/orders", order);
+            string lastUpdate = DateTime.Now.AddDays(-10).ToString("yyyy-MM-dd hh:mm:ss");
             //GET an ORDER 
-            HttpResponseMessage response = await client.GetAsync(apiBaseAddress + String.Format("api/orders/10"));
+            //HttpResponseMessage 
+             response = await client.GetAsync(apiBaseAddress + String.Format("api/orders/10"));
             //GET a product
-            //HttpResponseMessage response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/101621"));
+            //HttpResponseMessage 
+            //response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/101621"));
             //GET a list of Products 
-            // HttpResponseMessage response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetProducts?last_update={0}", lastUpdate));
+            // HttpResponseMessage 
+            //response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetProducts?last_update={0}", lastUpdate));
             // GET a list of stock levels sinc last update
-            //HttpResponseMessage response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetStockLevel?last_update={0}", lastUpdate));
+            //HttpResponseMessage 
+            response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetStockLevel?last_update={0}", lastUpdate));
             // GET a stock level for a products
-            //HttpResponseMessage response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetStockLevelForSKU/101621"));
+            //HttpResponseMessage 
+            //response = await client.GetAsync(apiBaseAddress + String.Format("api/Products/GetStockLevelForSKU/101621"));
 
             if (response.IsSuccessStatusCode)
             {
@@ -146,8 +151,8 @@ namespace Evolution.EComm.ApiClient
         public class CustomDelegatingHandler : DelegatingHandler
         {
             //Obtained from the server earlier, APIKey MUST be stored securly and in App.Config
-            private string APPId = "deb35c8a-67cf-460c-9eba-70980d3f6c7c";
-            private string APIKey = "p8Pp6ksnF8LPlpgp/xZm2I/z4m30G72SpsG2eekKXaU=";
+            private string APPId = "b782c079-c40e-4144-89ab-6fc0b58b369b";
+            private string APIKey = "eZmQC+ITixIfD3GbSGwr0fGLkZ4o+MEVPuPl+eH+6pg=";
 
             protected async override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
             {

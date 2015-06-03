@@ -1,0 +1,9 @@
+POST http://ramsys.cloudapp.net:1001/api/orders HTTP/1.1
+Authorization: amx b782c079-c40e-4144-89ab-6fc0b58b369b:dMiTxLPz9Zk4CBtTfxAQmcmG4xzIQT4gqROiR/n9RII=:4848cc36d24041f79c6059574de62721:1433300878
+Content-Type: application/json; charset=utf-8
+Host: ramsys.cloudapp.net:1001
+Content-Length: 1423
+Expect: 100-continue
+Connection: Keep-Alive
+
+{"Id":0,"order_ref":"test","EPAYs":[{"Id":0,"location":"","pos_no":0,"docket_no":0,"trans_date":"2015-06-03T15:07:57.8941036+12:00","line_no":0,"paytype":"EMC","card_no":"TEST","month_exp":1,"year_exp":1,"billtoken":"","amount":1.0,"shipping_amount":10.0,"amnt_used":1.1,"ref":"TEST","upd_date":"2015-06-03T15:07:57.8951037+12:00","cust_no":0,"order_ref":"ORDE1","gift_no":"","procflag":false,"cardname":"TEST2","backedup":false,"completed":true,"trn_type":"TEST","CreatedOn":"2015-06-03T15:07:57.8931035+12:00","EORDERID":0,"EORDER":null}],"ESALEs":[{"Id":0,"location":"WHS","pos_no":0,"docket_no":0,"trans_date":"2015-06-03T15:07:57.8871032+12:00","sperson":"#RMS","shipaddress":"","addchg":false,"ret_ssp":"","comment":"","dcomment":"","line_no":0,"isc_code":123,"qty":2.0,"qty_rec":2.0,"sale_value":86.09,"rew_points":0.0,"tax_value":12.91,"discount":55.95,"cost":0.0,"cust_no":0,"club":65967,"reversal":0.0,"reversed":false,"proc_flag":false,"upd_date":"2015-06-03T15:07:57.8901034+12:00","upd_file":"","flybuy_no":"","gift_no":"","taxfree":false,"taxf_no":"","excl_perf":false,"procflag":false,"club_ext":false,"clubgv":false,"couponsale":false,"promo":false,"sno":"","secssp":"","club_rew":false,"backedup":false,"prcode":"","completed":"2015-06-03T15:07:57.8921035+12:00","order_ref":"ORD0073295","status":null,"pcode":null,"CreatedOn":"0001-01-01T00:00:00","EORDERID":0,"EORDER":null,"ESALE1":null,"ESALE2":null}]}
